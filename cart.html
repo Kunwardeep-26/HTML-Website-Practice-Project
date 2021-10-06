@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/709718c5e6.js" crossorigin="anonymous"></script>
+    <title>KUNWAR DRY FRUITS</title>
+    <!-- Styling of the webpage -->
+    <style>
+        body{
+            background-color: whitesmoke;
+            display: grid;
+            color: rgb(129, 85, 28);
+        }
+
+        i{
+            margin: 1.5%;
+            margin-bottom: 0%;
+            margin-top: 0.5%;
+            font-size: 2rem;
+        }
+
+        input{
+            background-color:green ;
+            color: black;
+            border-radius: 5px
+        }
+
+        img{
+            border: 5px;
+            border-radius: 10px;
+            border-color: black;
+            border-style: solid;
+        }
+
+        button{
+            border: 2px;
+            border-style: solid;
+            border-radius: 10px;
+            background-color: green;
+            font-size: 2rem;
+        }
+
+        textarea{
+            background-color: green;
+            border: 2px;
+            border-style: solid;
+            border-radius: 10px;
+        }
+
+        select{
+            background-color: green;
+            border: 2px;
+            border-style: solid;
+            border-radius: 10px;
+        }        
+    </style>
+</head>
+<body>
+    <!-- navigation bar starts -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top">        
+        <a class="navbar-brand" href="#">KUNWAR DRY FRUITS</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="product.html" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About Us</a>
+            </li>
+    </nav>
+    <!-- navigation bar ends -->
+    <!-- main content starts -->
+    <main>
+        <center>
+            <h1><b>KUNWAR DRY FRUITS</b></h1>
+            <h1><b>CART</b></h1>        
+            <table>
+                <tr>
+                    <td>
+                        <img src="almond.jpg" alt="almond Image" width="400">
+                    </td>
+                    <td>
+                        <input type="text" value="2KG">
+                    </td>
+                    <td>
+                        <h1 style="color: red;"><b>PRICE: ₹1798</b></h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="walnut.jpg" alt="walnut image" width="400">
+                    </td>
+                    <td>
+                        <input type="text" value="1KG">
+                    </td>
+                    <td>
+                        <h1 style="color: red;"><b>PRICE: ₹699</b></h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="raisins.jpg" alt="raisins image" width="400">
+                    </td>
+                    <td>
+                        <input type="text" value="2KG">
+                    </td>
+                    <td>
+                        <h1 style="color: red;"><b>PRICE: ₹1998</b></h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Dates.jpg" alt="dates image" width="400">
+                    </td>
+                    <td>
+                        <input type="text" value="3KG">
+                    </td>
+                    <td><h1 style="color: red;"><b>PRICE: ₹2697</b></h1></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="name"></td>
+                    <td><input type="text" placeholder="phone number"></td>\
+                    <td style="padding-left: 2rem;"><textarea name="Address" cols="50" rows="10" placeholder="address"></textarea></td>                                  
+                    <td style="padding-left: 2rem;">
+                        <select name="Address Types">
+                            <option>ADDRESS TYPE</option>
+                            <option>HOME</option>
+                            <option>WORK</option>
+                            <option>OTHERS..</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <hr size="5">
+            <h1 style="color: red; font-size: 4rem;"><b>TOTAL<br>₹7192</b></h1>        
+            <a href="done.html"><button>ORDER</button></a>
+        </center>
+        <hr>
+    </main>
+    <!-- main content ends -->
+    <footer class="footer bg-success">
+        <center>
+            <p>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-envelope-square"></i>
+            </p>
+            <b>KUNWAR DRY FRUITS©</b>     
+        </center> 
+    </footer>    
+</body>
+</html>
